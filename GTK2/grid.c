@@ -10,10 +10,7 @@ struct board{
 	char s[9][9];
 	int difficulty;
 };
-struct board initBoard()
-{
 	
-}
 void readBoard(struct board *s)
 {
 	FILE *f = fopen("puzzle.in", "r");
